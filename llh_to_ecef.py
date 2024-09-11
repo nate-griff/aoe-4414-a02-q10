@@ -53,4 +53,8 @@ def main():
     x_ecef, y_ecef, z_ecef = llh_to_ecef(lat, lon, h)
 
     print(f"{x_ecef:.6f}")
-    print(f"{y_ecef:.6
+    print(f"{y_ecef:.6f}")
+    print(f"{z_ecef:.6f}")
+
+if __name__ == "__main__":
+    main()
